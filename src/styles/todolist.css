@@ -1,0 +1,64 @@
+.parent{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.inp-container{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: orange;
+}
+.inp{
+    width: 20rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.3rem;
+    text-align: center;
+    outline: none;
+    color: orange;
+}
+.inp::placeholder{
+    color: orange;
+}
+.btn{
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 0.3rem;
+    color: orange;
+}
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.content{
+    width: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+.delete-btn{
+    padding: 0.5rem 2rem;
+    border: 1px solid orange;
+    border-radius: 0.3rem;
+    color: orange;
+    background-color: transparent;
+}
+.edit-btn{
+    padding: 0.5rem 2rem;
+    border: 1px solid orange;
+    border-radius: 0.3rem;
+    color: orange;
+    background-color: transparent;
+}
